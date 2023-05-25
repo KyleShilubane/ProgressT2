@@ -1,0 +1,106 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-image: url();
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  .navbar:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    color: #fff;
+    background-color: #333;
+  }
+
+  .welcome {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #000000cc;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .content {
+    margin-bottom: 30px;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .subs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sub-card {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .sub-card h3 {
+    margin-top: 0;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+  }

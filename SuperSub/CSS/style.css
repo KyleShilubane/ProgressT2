@@ -5,7 +5,7 @@ body {
   }
 
   header {
-    background-image: url();
+    background-image: url("https://media.timeout.com/images/105757031/image.jpg");
     background-size: cover;
     height: 800px;
     display: flex;
@@ -52,12 +52,28 @@ body {
     text-shadow: 2px 2px 4px #000000cc;
   }
 
-  main {
+  content {
     padding: 20px;
   }
 
   .content {
     margin-bottom: 30px;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
   }
 
   .buttons {
@@ -76,12 +92,117 @@ body {
     justify-content: space-between;
   }
 
-  .sub-card {
+  .sub-card1 {
     width: 45%;
+    height: 200px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167106346242258.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .sub-card1 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167106346242258.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .sub-card2 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167078720910872.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .sub-card3 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/16833155585477.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .sub-card4 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167108433847389.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .sub-card5 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://www.nrn.com/sites/nrn.com/files/Subway-Baja-Steak-Jack-Refresh-Menu.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .sub-card6 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167108257517665.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .sub-card7 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://media.istockphoto.com/id/136691774/photo/huge-sandwich-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=c7DZXgPb5QhcE2a8gXz6wuTTV6BS1S_sX7rmGG1G20g=");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .sub-card8 {
+    width: 45%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("https://fastfoodnutrition.org/item-photos/full/167108115018493.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
   .sub-card h3 {
@@ -104,3 +225,38 @@ body {
     margin: 0 10px;
     color: #333;
   }
+
+  #sub-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sub {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .sub h2 {
+    margin-top: 0;
+  }
+  
+  .sub h3 {
+    margin-bottom: 5px;
+  }
+  
+  .sub label {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .sub input[type="text"],
+  .sub input[type="number"] {
+    width: 100%;
+  }
+  
+  .sub button {
+    margin-top: 10px;
+  }
+  
